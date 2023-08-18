@@ -7,6 +7,9 @@ android {
     namespace = "com.fatihates.hesap_makinesi"
     compileSdk = 33
 
+
+
+
     defaultConfig {
         applicationId = "com.fatihates.hesap_makinesi"
         minSdk = 24
@@ -25,6 +28,11 @@ android {
                 "proguard-rules.pro"
             )
         }
+
+        buildFeatures{
+            viewBinding = true
+        }
+
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8

@@ -16,13 +16,12 @@
         android:text="Hesap Makinesi" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/sonuc"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:gravity="right"
-        android:hint="0"
         android:text="0"
-        android:textSize="75dp"
+        android:textSize="100dp"
         android:textStyle="bold"
         android:layout_marginTop="25dp"/>
 
@@ -140,7 +139,7 @@
                 app:strokeWidth="2dp" />
 
             <Button
-                android:id="@+id/carpi2"
+                android:id="@+id/bolme"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
@@ -227,7 +226,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#F40303"
                 android:text="AC"
-                android:onClick="AC"
+                android:onClick="ac"
                 android:textSize="30dp"
                 app:cornerRadius="10dp"
                 app:strokeColor="#000000"
